@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aggregator Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:aggregator-feed-id</id>
+  <entry>
+    <title>Syndicated Entry</title>
+    <id>urn:uuid:entry-syndicated</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <summary>Entry from another feed</summary>
+    <source>
+      <title>Original Feed</title>
+      <id>urn:uuid:original-feed-id</id>
+      <updated>2006-01-01T00:00:00Z</updated>
+      <link href="https://original.example.com" rel="alternate"/>
+      <author>
+        <name>Original Author</name>
+      </author>
+    </source>
+  </entry>
+</feed>

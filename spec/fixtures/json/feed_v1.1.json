@@ -1,0 +1,40 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "JSON Feed v1.1 Test",
+  "home_page_url": "https://example.com",
+  "feed_url": "https://example.com/feed.json",
+  "description": "A v1.1 JSON feed with authors array",
+  "language": "en-US",
+  "icon": "https://example.com/icon.png",
+  "authors": [
+    {
+      "name": "Alice",
+      "url": "https://alice.example.com"
+    },
+    {
+      "name": "Bob",
+      "url": "https://bob.example.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "100",
+      "url": "https://example.com/post/100",
+      "title": "Collaborative Post",
+      "content_html": "<p>Written by two authors</p>",
+      "date_published": "2026-03-25T09:00:00Z",
+      "authors": [
+        {
+          "name": "Alice"
+        },
+        {
+          "name": "Bob"
+        }
+      ],
+      "language": "en-US",
+      "tags": [
+        "collab"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "JSON Feed Test",
+  "home_page_url": "https://example.com",
+  "feed_url": "https://example.com/feed.json",
+  "description": "A test JSON feed",
+  "icon": "https://example.com/icon.png",
+  "favicon": "https://example.com/favicon.png",
+  "author": {
+    "name": "Jane Doe",
+    "url": "https://jane.example.com",
+    "avatar": "https://jane.example.com/avatar.png"
+  },
+  "expired": false,
+  "items": [
+    {
+      "id": "1",
+      "url": "https://example.com/post/1",
+      "external_url": "https://external.example.com/1",
+      "title": "First Post",
+      "content_html": "<p>Hello, world!</p>",
+      "content_text": "Hello, world!",
+      "summary": "A brief summary",
+      "image": "https://example.com/post/1/image.png",
+      "banner_image": "https://example.com/post/1/banner.png",
+      "date_published": "2026-03-20T10:00:00Z",
+      "date_modified": "2026-03-21T12:00:00Z",
+      "author": {
+        "name": "Jane Doe"
+      },
+      "tags": [
+        "crystal",
+        "rss"
+      ],
+      "attachments": [
+        {
+          "url": "https://example.com/post/1/audio.mp3",
+          "mime_type": "audio/mpeg",
+          "title": "Episode 1",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 3600
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "url": "https://example.com/post/2",
+      "title": "Second Post",
+      "content_text": "Plain text only",
+      "date_published": "2026-03-19T08:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Feed</title>
+    <link>https://example.com</link>
+    <description>A test RSS 2.0 feed</description>
+    <language>en-us</language>
+    <copyright>© 2026 Example</copyright>
+    <managingEditor>editor@example.com (Jane Editor)</managingEditor>
+    <webMaster>webmaster@example.com</webMaster>
+    <pubDate>Mon, 02 Jan 2006 15:04:05 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2006 10:00:00 +0000</lastBuildDate>
+    <generator>Test Generator 1.0</generator>
+    <ttl>60</ttl>
+    <item>
+      <title>First Item</title>
+      <link>https://example.com/1</link>
+      <description>First item description</description>
+      <pubDate>Mon, 02 Jan 2006 15:04:05 +0000</pubDate>
+      <guid>https://example.com/1</guid>
+      <author>author@example.com (Alice)</author>
+    </item>
+    <item>
+      <title>Second Item</title>
+      <link>https://example.com/2</link>
+      <description>Second item description</description>
+      <guid isPermalink="false">item-id-002</guid>
+    </item>
+  </channel>
+</rss>

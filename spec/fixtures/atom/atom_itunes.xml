@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:itunes="http://www.itunes.com/DTDs/PodCast-1.0.dtd">
+  <title>Atom Podcast Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:itunes-feed-id</id>
+  <link href="https://example.com/podcast" rel="alternate"/>
+  <itunes:author>Podcast Host</itunes:author>
+  <itunes:subtitle>A great podcast</itunes:subtitle>
+  <itunes:summary>Detailed podcast summary</itunes:summary>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:image href="https://example.com/cover.jpg"/>
+  <itunes:owner>
+    <itunes:name>Podcast Host</itunes:name>
+    <itunes:email>host@example.com</itunes:email>
+  </itunes:owner>
+  <itunes:category text="Technology">
+    <itunes:category text="Software How-To"/>
+  </itunes:category>
+  <entry>
+    <title>Episode 1</title>
+    <id>urn:uuid:itunes-entry-1</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <link href="https://example.com/ep1" rel="alternate"/>
+    <link href="https://example.com/ep1.mp3" rel="enclosure" type="audio/mpeg" length="12345678"/>
+    <summary>First episode summary</summary>
+    <itunes:author>Podcast Host</itunes:author>
+    <itunes:duration>42:30</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:episode>1</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <itunes:episodeType>full</itunes:episodeType>
+  </entry>
+</feed>

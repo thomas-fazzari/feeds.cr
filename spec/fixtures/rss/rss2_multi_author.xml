@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Multi Author Feed</title>
+    <link>https://example.com</link>
+    <description>Feed testing dc:creator fallback for author</description>
+    <item>
+      <title>Item By DC Creator</title>
+      <link>https://example.com/1</link>
+      <description>This item uses dc:creator instead of author</description>
+      <dc:creator>Bob Writer</dc:creator>
+      <guid>https://example.com/1</guid>
+    </item>
+  </channel>
+</rss>

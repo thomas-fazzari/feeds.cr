@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Content Types Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:content-types-feed-id</id>
+  <entry>
+    <title>Text Content</title>
+    <id>urn:uuid:entry-text</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <content type="text">Plain text content</content>
+  </entry>
+  <entry>
+    <title>HTML Content</title>
+    <id>urn:uuid:entry-html</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <content type="html">&lt;p&gt;HTML content&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>XHTML Content</title>
+    <id>urn:uuid:entry-xhtml</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>XHTML content</p>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>External Content</title>
+    <id>urn:uuid:entry-external</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <content type="text/html" src="https://example.com/content.html"/>
+    <summary>This entry has external content</summary>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Authors Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:authors-feed-id</id>
+  <author>
+    <name>Feed Author</name>
+    <email>feed@example.com</email>
+    <uri>https://example.com/feed-author</uri>
+  </author>
+  <contributor>
+    <name>Feed Contributor</name>
+    <email>contributor@example.com</email>
+  </contributor>
+  <entry>
+    <title>Multi-Author Entry</title>
+    <id>urn:uuid:entry-auth-1</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <author>
+      <name>Alice</name>
+      <email>alice@example.com</email>
+    </author>
+    <author>
+      <name>Bob</name>
+      <uri>https://example.com/bob</uri>
+    </author>
+    <contributor>
+      <name>Charlie</name>
+    </contributor>
+    <summary>Entry with multiple authors and contributors</summary>
+  </entry>
+</feed>

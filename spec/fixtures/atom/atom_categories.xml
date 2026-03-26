@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Categories Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:categories-feed-id</id>
+  <category term="technology" scheme="https://example.com/cats" label="Technology"/>
+  <category term="crystal" label="Crystal Lang"/>
+  <entry>
+    <title>Categorized Entry</title>
+    <id>urn:uuid:entry-cat-1</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <category term="tutorial" label="Tutorial"/>
+    <category term="beginner"/>
+    <summary>Entry with categories</summary>
+  </entry>
+</feed>

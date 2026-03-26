@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/DTDs/PodCast-1.0.dtd">
+  <channel>
+    <title>Podcast Feed</title>
+    <link>https://example.com/podcast</link>
+    <description>A test podcast feed</description>
+    <itunes:author>John Podcaster</itunes:author>
+    <itunes:subtitle>The best podcast</itunes:subtitle>
+    <itunes:summary>A detailed summary of this podcast</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://example.com/cover.jpg" />
+    <itunes:keywords>crystal, programming, podcast</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>John Podcaster</itunes:name>
+      <itunes:email>john@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" />
+    </itunes:category>
+    <item>
+      <title>Episode 1</title>
+      <link>https://example.com/ep1</link>
+      <description>First episode</description>
+      <enclosure url="https://example.com/ep1.mp3" length="12345678" type="audio/mpeg" />
+      <guid>https://example.com/ep1</guid>
+      <pubDate>Mon, 02 Jan 2006 15:04:05 +0000</pubDate>
+      <itunes:author>John Podcaster</itunes:author>
+      <itunes:duration>42:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Episode one subtitle</itunes:subtitle>
+      <itunes:summary>Episode one summary</itunes:summary>
+      <itunes:image href="https://example.com/ep1.jpg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Episode 2</title>
+      <link>https://example.com/ep2</link>
+      <description>Second episode</description>
+      <enclosure url="https://example.com/ep2.mp3" length="9876543" type="audio/mpeg" />
+      <guid>https://example.com/ep2</guid>
+      <itunes:duration>35:12</itunes:duration>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Full RSS Feed</title>
+    <link>https://example.com</link>
+    <description>A full RSS 2.0 feed with all optional elements</description>
+    <language>en-us</language>
+    <copyright>© 2026 Example</copyright>
+    <pubDate>Mon, 02 Jan 2006 15:04:05 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2006 10:00:00 +0000</lastBuildDate>
+    <category>Technology</category>
+    <category domain="https://example.com/cats">Programming</category>
+    <generator>Test Generator 2.0</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>30</ttl>
+    <rating>(PICS-1.1 "http://www.classify.org/safesurf/" 1 r (SS~~000 1))</rating>
+    <image>
+      <url>https://example.com/logo.png</url>
+      <title>Full RSS Feed</title>
+      <link>https://example.com</link>
+      <width>144</width>
+      <height>40</height>
+      <description>Our logo</description>
+    </image>
+    <textInput>
+      <title>Search</title>
+      <description>Search this site</description>
+      <name>q</name>
+      <link>https://example.com/search</link>
+    </textInput>
+    <cloud
+      domain="radio.xmlstoragesystem.com"
+      port="80"
+      path="/RPC2"
+      registerProcedure="myCloud.rssPleaseNotify"
+      protocol="xml-rpc"
+    />
+    <skipHours>
+      <hour>0</hour>
+      <hour>1</hour>
+      <hour>2</hour>
+    </skipHours>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <item>
+      <title>Item With Categories</title>
+      <link>https://example.com/item1</link>
+      <description>Item with multiple categories</description>
+      <category>Crystal</category>
+      <category domain="https://example.com/topics">Programming</category>
+      <pubDate>Mon, 02 Jan 2006 15:04:05 +0000</pubDate>
+      <guid>https://example.com/item1</guid>
+    </item>
+  </channel>
+</rss>

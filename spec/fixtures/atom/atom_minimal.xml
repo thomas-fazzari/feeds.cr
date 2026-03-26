@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Minimal Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:minimal-feed-id</id>
+</feed>

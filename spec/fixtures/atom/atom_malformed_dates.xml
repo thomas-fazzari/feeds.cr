@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Malformed Dates Feed</title>
+  <updated>not a date at all</updated>
+  <id>urn:uuid:malformed-dates-id</id>
+  <entry>
+    <title>Entry With Garbage Date</title>
+    <id>urn:uuid:entry-bad-date-1</id>
+    <updated>totally invalid</updated>
+    <published>also not a date</published>
+    <summary>Entry with unparseable dates</summary>
+  </entry>
+  <entry>
+    <title>Entry With Empty Updated</title>
+    <id>urn:uuid:entry-bad-date-2</id>
+    <updated></updated>
+    <summary>Entry with empty date</summary>
+  </entry>
+</feed>

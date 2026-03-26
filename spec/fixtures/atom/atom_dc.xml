@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>DC Atom Feed</title>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:dc-feed-id</id>
+  <dc:creator>DC Feed Author</dc:creator>
+  <dc:date>2006-01-02T15:04:05Z</dc:date>
+  <dc:language>en</dc:language>
+  <dc:rights>© 2026 DC Example</dc:rights>
+  <entry>
+    <title>DC Entry</title>
+    <id>urn:uuid:dc-entry-1</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <summary>Entry with Dublin Core fields</summary>
+    <dc:creator>DC Entry Author</dc:creator>
+    <dc:subject>Crystal</dc:subject>
+    <dc:subject>Programming</dc:subject>
+    <dc:date>2006-01-02T15:04:05Z</dc:date>
+  </entry>
+</feed>

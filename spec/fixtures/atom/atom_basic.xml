@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+  <title>Test Atom Feed</title>
+  <subtitle>A test Atom 1.0 feed</subtitle>
+  <link href="https://example.com" rel="alternate" type="text/html"/>
+  <link href="https://example.com/feed.atom" rel="self" type="application/atom+xml"/>
+  <updated>2006-01-02T15:04:05Z</updated>
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+  <author>
+    <name>Jane Author</name>
+    <email>jane@example.com</email>
+    <uri>https://example.com/jane</uri>
+  </author>
+  <generator uri="https://example.com/generator" version="1.0">Test Generator</generator>
+  <icon>https://example.com/icon.png</icon>
+  <logo>https://example.com/logo.png</logo>
+  <rights>© 2026 Example</rights>
+  <entry>
+    <title>First Entry</title>
+    <link href="https://example.com/1" rel="alternate"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2006-01-02T15:04:05Z</updated>
+    <published>2006-01-01T00:00:00Z</published>
+    <summary>First entry summary</summary>
+    <content type="html">&lt;p&gt;First entry content&lt;/p&gt;</content>
+    <author>
+      <name>Alice</name>
+      <email>alice@example.com</email>
+    </author>
+  </entry>
+  <entry>
+    <title>Second Entry</title>
+    <link href="https://example.com/2"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b</id>
+    <updated>2006-01-03T10:00:00Z</updated>
+    <summary>Second entry summary</summary>
+  </entry>
+</feed>
