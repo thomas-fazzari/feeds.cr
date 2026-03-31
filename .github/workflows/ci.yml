@@ -24,6 +24,33 @@ jobs:
       - name: Spec
         run: crystal spec
 
+      - name: Install kcov
+        run: |
+          sudo apt-get install -y libdw-dev libcurl4-openssl-dev libelf-dev cmake
+          KCOV_VERSION=v43
+          curl -sL "https://github.com/SimonKagstrom/kcov/archive/refs/tags/${KCOV_VERSION}.tar.gz" | tar xz
+          cd kcov-*/
+          cmake -S . -B build
+          cmake --build build
+          sudo cmake --install build
+
+      - name: Build spec binary
+        run: |
+          echo 'require "./spec/**"' > all_specs.cr
+          mkdir -p bin
+          crystal build all_specs.cr -o bin/all_specs
+
+      - name: Run coverage
+        run: |
+          kcov --clean --include-path=./src ./coverage ./bin/all_specs --order=random
+          crystal tool unreachable --format=codecov ./all_specs.cr > ./coverage/unreachable.codecov.json
+          crystal tool macro_code_coverage ./all_specs.cr > ./coverage/macro_coverage.root.codecov.json
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v6
+        with:
+          files: '**/cov.xml,**/unreachable.codecov.json,**/macro_coverage.*.codecov.json'
+
   lint:
     runs-on: ubuntu-latest
     steps:

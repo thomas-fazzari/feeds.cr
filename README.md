@@ -1,6 +1,7 @@
 # Feeds
 
 [![CI](https://github.com/thomas-fazzari/feeds.cr/actions/workflows/ci.yml/badge.svg)](https://github.com/thomas-fazzari/feeds.cr/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/thomas-fazzari/feeds.cr/graph/badge.svg)](https://codecov.io/gh/thomas-fazzari/feeds.cr)
 
 Universal feed parser for Crystal, inspired by [gofeed](https://github.com/mmcdole/gofeed).
 
